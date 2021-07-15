@@ -224,7 +224,7 @@ img {
 .home__img {
 
     width: 354px;
-    height: 256px;
+    height: 255px;
     background-color: var(--first-color);
     border-radius: 20%;
     overflow: hidden;
@@ -400,15 +400,15 @@ img {
 }
 
 .skills__c {
-    width: 90%;
+    width: 80%;
 }
 
 .skills__cplus {
-    width: 80%;
+    width: 70%;
 }
 
 .skills__java {
-    width: 80%;
+    width: 60%;
 }
 
 .skills__tf {
@@ -437,7 +437,7 @@ img {
 
 .education__university {
     display: block;
-    font-size: var(--smaller-font-size);
+    font-size: var(--small-font-size);
     /*text-align: right;*/
 }
 
