@@ -180,7 +180,7 @@ img {
 }
 
 .nav__link {
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     color: var(--first-color-lighten);
     font-weight: var(--font-bold);
@@ -242,8 +242,8 @@ img {
 }
 
 .home__profession {
-    font-size: var(--small-font-size);
-    color: var(--first-color-dark);
+    font-size: var(--h4-font-size);
+    color: #1c28a6;
     margin-bottom: var(--mb-5);
 }
 
@@ -350,6 +350,9 @@ img {
     row-gap: 2rem;
 }
 
+.skills__content{
+    margin-left: 10px;
+}
 .skills__subtitle {
     font-size: var(--h3-font-size);
     color: var(--first-color-dark);
@@ -654,7 +657,7 @@ img {
 }
 
 .works__title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     color: var(--first-color-lighten);
     text-align: center;
     margin: 0px 20px 0px 20px;
