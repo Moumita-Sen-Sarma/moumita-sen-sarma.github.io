@@ -477,6 +477,42 @@ img {
     transform: translate(5px, -4px);
 }
 
+.cert__ul{
+    /*font-size: var(--h3-font-size);
+    list-style-type: square;*/
+    list-style: none;
+    padding: 0px 8px 0px 67px;
+    color: var(--text-color);
+}
+
+.cert__ul li {padding: 5px 25px}
+
+.cert__ul li::before{
+    content: "";
+    width: 13px;
+    height: 12px;
+    background-color: var(--first-color-dark);
+    position: absolute;
+    top: 13px;
+    left: 10;
+    margin: 0px 0px 0px -37px;
+}
+
+.cert__ul li {
+    position: relative;
+}
+
+
+.certifications{
+    color: var(--first-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.certifications:hover{
+    color: #1a7f91;
+    text-decoration: underline;
+}
+
 /* ===== pub =====*/
 .pub__container {
     row-gap: 2rem;
@@ -505,6 +541,9 @@ img {
 
 .see__pub{
     color:  var(--first-color);
+}
+.see__cert{
+    color: #0d9e94;
 }
 
 .see__pub:hover{
@@ -542,6 +581,14 @@ img {
 }
 
 .pub__content:hover .see__pub:hover {
+    color: #FFFF66;
+}
+
+.pub__content:hover .see__cert {
+    color: #F4B183;
+}
+
+.pub__content:hover .see__cert:hover {
     color: #FFFF66;
 }
 /* ===== PROJECT IN MIND  =====*/
@@ -673,6 +720,34 @@ img {
     margin-left:auto;
     margin-right:auto;
 
+}
+
+
+/*========== experiences================*/
+
+.exp__achv {
+  margin: 0.75em 0;
+  padding: 0 1em;
+  list-style: none;
+}
+.exp__achv li::before { 
+  content: "";
+  border-color: transparent #111;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+
+.about__exp-icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-right: var(--mb-1);
+    margin-top: 0px;
 }
 
 /* ===== CONTACT =====*/
