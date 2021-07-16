@@ -180,7 +180,7 @@ img {
 }
 
 .nav__link {
-    font-size: 13pt;
+    font-size: 0.9rem;
     text-transform: uppercase;
     color: var(--first-color-lighten);
     font-weight: var(--font-bold);
@@ -851,6 +851,10 @@ img {
         width: var(--nav-widht);
     }
 
+    .nav__link {
+    font-size: 0.9rem;
+    }
+
     .about__container, .skills__container, .pub__container, .works__container, .instrst__container .contact__container, .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -938,6 +942,10 @@ img {
 
     .nav__menu {
         left: 0;
+    }
+
+    .nav__link {
+    font-size: 13pt;
     }
 
     .home__container {
