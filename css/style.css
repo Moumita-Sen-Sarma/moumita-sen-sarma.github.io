@@ -851,7 +851,7 @@ img {
         width: var(--nav-widht);
     }
 
-    .about__container, .skills__container, .pub__container, .works__container, .contact__container, .contact__inputs {
+    .about__container, .skills__container, .pub__container, .works__container, .instrst__container .contact__container, .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
     }
 
