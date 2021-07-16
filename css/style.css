@@ -242,9 +242,11 @@ img {
 }
 
 .home__profession {
-    font-size: var(--h4-font-size);
-    color: #1c28a6;
+    font-size: 1.1rem;
+    /*color: #a99430;*/
+    color: var(--first-color);
     margin-bottom: var(--mb-5);
+    font-weight: var(--font-semi-bold);
 }
 
 .home__social {
