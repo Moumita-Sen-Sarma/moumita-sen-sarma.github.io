@@ -180,7 +180,7 @@ img {
 }
 
 .nav__link {
-    font-size: 0.9rem;
+    font-size: 13pt;
     text-transform: uppercase;
     color: var(--first-color-lighten);
     font-weight: var(--font-bold);
