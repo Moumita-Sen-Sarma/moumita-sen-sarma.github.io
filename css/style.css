@@ -177,7 +177,6 @@ img {
 
 .nav__item {
     margin-bottom: var(--mb-3);
-    font-size: var(--small-font-size);
 }
 
 .nav__link {
