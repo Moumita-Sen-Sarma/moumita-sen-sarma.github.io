@@ -482,6 +482,14 @@ img {
     transform: translate(5px, -4px);
 }
 
+.ielts__line {
+    display: block;
+    height: 100%;
+    width: 4px;
+    background-color: var(--first-color);
+    transform: translate(5px, -4px);
+}
+
 .cert__ul{
     /*font-size: var(--h3-font-size);
     list-style-type: square;*/
