@@ -1,731 +1,189 @@
-<!DOCTYPE html>
-
-
-<html lang='en'>
-
+<!doctype html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content='width=device-width, initial-scale=1'>
-
-	<link rel= 'stylesheet' href="css/style.css">
-	<!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<title>
-		Portfolio | Moumita Sen Sarma
-	</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Moumita Sen Sarma - PhD candidate, AI researcher, and educator." />
+  <title>Moumita Sen Sarma | AI Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-	<header class='l-header'>
-		<nav class= 'nav bd-grid' style="margin: 11px 0px 16px 0px;">
-		<div class="nav__toggle" id="nav-toggle">
-			<i class="bx bx-menu" style="font-size: 3.3rem;"></i>
-		</div>
-
-		<div>
-			<a href="#" class="nav__logo" style="font-size: 1.5rem">Moumita Sen Sarma</a> 
-		</div>
-
-		<div class="nav__menu" id="nav-menu">
-			<div class="nav__close" id="nav-close">
-				<i class="bx bx-x" ></i>
-			</div>
-
-			<ul class='nav__list'>
-				<li class="nav__item"><a href="#home" class='nav__link'>Home</a>
-				<li class="nav__item"><a href="#about" class='nav__link'>About</a>
-				<li class="nav__item"><a href="#education" class='nav__link'>Education</a>
-				<li class="nav__item"><a href="#teaching" class='nav__link'>Teaching Experiences</a>
-				<li class="nav__item"><a href="#publications" class='nav__link'>Research Works</a>
-				<li class="nav__item"><a href="#works" class='nav__link'>Projects</a>
-				<li class="nav__item"><a href="#skills" class='nav__link'>Skills</a>
-				<li class="nav__item"><a href="#experienes" class='nav__link'>Training & Cocurricular Activities</a>
-				<!-- <li class="nav__item"><a href="#contact" class='nav__link'>Contact Me</a> -->
-				</li>
-			</ul>
-		</div>
-		
-	</nav>
-
-	</header>
-	<main class='l-main'>
-
-<!-- ============= Home =====================-->
-
-		<section class="home" id="home">
-			<div class="home__container bd-grid">
-				<div class="home__data">
-					<div class="home__img">
-						<img src="img/portfolio_1.jpg" alt="">	
-					</div>
-
-					<h1 class="home__title">Moumita Sen Sarma</h1>
-					<span class="home__profession"><span style="color: #173c79">AI Enthusiast</span> | <span style="color: #007000">Computer Vision Researcher</span > | <span  style="color:#1a7f91">Deep Learning Practitioner</span ></span>
-					<br>
-					<div class="home__social">
-						<a href="https://www.linkedin.com/in/moumita-sen-sarma-91245413a/" class="home__social-link" target="_blank"><i class="bx bxl-linkedin" ></i></a>
-						<a href="https://github.com/Moumita-Sen-Sarma" class="home__social-link" target="_blank"><i class="bx bxl-github"></i></a>
-
-						<a href="https://scholar.google.com/citations?user=7uRtCK0AAAAJ&hl=en" class="home__social-link" target="_blank"><img src="img/scholar.png" style="height: 34px;width: 37px;
-						"></a>	
-						<a href="https://www.researchgate.net/profile/Moumita-Sen-Sarma" target="_blank" class="home__social-link" style="height: 49px;"><img src="img/RG.png" style="height: 34px;width: 37px;
-						margin: 0px -5px 0px 5px;"></a>
-
-					</div>
-
-					<a download="" href="https://drive.google.com/file/d/1B-Ay7TYtUaponflHFHEeM6jdSfVgdfZj/view?usp=sharing" class="button home__button" target="_blank"> Curriculum Vitae</a>
-				</div>
-			</div>
-		</section>
-
-<!-- ============= About =====================-->
-
-		<section class="about-section" id="about">
-			<span class="section-subtitle">My Intro</span>
-			<h2 class="section-title">About Me</h2>
-			<div class="about__container bd-grid">
-				<div class="about__data">
-					<p class="about__description" align="justify">
-						Hello, I'm Moumita Sen Sarma. I have completed B.Sc in Computer Science and Engineering (CSE) from Chittagong University of Engineering and Technology (CUET). My research interests are computer vision, machine learning, deep learning and data science. I have also served as a chairperson of IEEE CUET WIE AG Student Branch & membership coordinator of IEEE Student Branch CUET and organized some skill enriching events. I believe I'm creative and a quick learner with an analytical mind. I worked as Lecturer in the Department of Computer Science & Engineering at East Delta University, Bangladesh from 19.09.2021 to 16.07.2023. Currently, I'm working as a Lecturer in the Department of Computer Science & Engineering at my Alma Mater, Chittagong University of Engineering and Technology (CUET), Bangladesh.
-					</p>
-				</div>
-
-				<div>
-				<div class="about__information">
-					<h3 class="about__information-title">Information</h3>
-					<div class="about__information-data">
-						<i class="bx bx-user about__information-icon"></i>
-						<span>Moumita Sen Sarma</span>
-					</div>
-
-					<div class="about__information-data">
-						<i class="bx bx-phone about__information-icon"></i>
-						<span>+8801819627559</span>
-					</div>
-
-					
-					<div class="about__information-data">
-						<i class="bx bx-envelope about__information-icon"></i>
-						<span>moumitactg@gmail.com <br>
-						moumita@cuet.ac.bd</span>
-					</div>
-
-					<div class="about__information-data">
-						<i class="bx bx-calendar-star about__information-icon"></i>
-						<span>29. 12. 1996</span>
-					</div>
-				</div>
-				</div>
-			</div>
-		</section>
-
-<!-- =================== Education ====================== -->
-
-	<section class="education section" id="education">
-		<span class="section-subtitle">Qualification</span>
-			<h2 class="section-title">My Education</h2>
-			<div class="education__container bd-grid">
-				<div class="education__content">
-					<div>
-						<h3 class="education__year">2016 - 2021</h3>
-						<span class="education__university">Chittagong University of Engineering <br>and Technology (CUET)</span>
-					</div>
-					<div class="education__time">
-						<span class="education__rounder"></span>
-						<span class="education__line"></span>
-					</div>
-
-					<div>
-						<h3 class="education__grad">Bachelor of Science</h3>
-						<span class="education__dept">Computer Science and Engineering (CSE)</span>
-						<br>
-						<span class="education__result">CGPA: <b>3.89</b> out of <b> 4.00 </b></span>
-						<br>
-						<span class="education__result">Departmental Merit Position: <b>1<sup>st</sup></b></span>
-					</div>
-				</div>
-
-				<div class="education__content">
-					<div>
-						<h3 class="education__year">2013 - 2015</h3>
-						<span class="education__university">Chittagong College</span>
-					</div>
-					<div class="education__time">
-						<span class="education__rounder"></span>
-						<span class="education__line"></span>
-					</div>
-
-					<div>
-						<h3 class="education__grad">Higher Secondary School Certificate (HSC)</h3>
-						<span class="education__result">GPA:  <b>5.00</b> out of <b> 5.00 </b></span>
-					</div>
-				</div>
-
-				<div class="education__content">
-					<div>
-						<h3 class="education__year">2010 - 2012</h3>
-						<span class="education__university">Dr. Khastagir Govt. Girls’ High School</span>
-					</div>
-					<div class="education__time">
-						<span class="education__rounder"></span>
-						<span class="education__line"></span>
-					</div>
-
-					<div>
-						<h3 class="education__grad">Secondary School Certificate (SSC)</h3>
-						<span class="education__result">GPA:  <b>5.00</b> out of <b> 5.00 </b></span>
-					</div>
-				</div>
-			</div>
-			<br>
-			
-
-
-			<!-- <h2 class="section-title" style="margin: 26px 0px 16px 0px;">English Language Proficiency Examination</h2>
-			<div class="education__container bd-grid"> 
-
-				<div class="education__content">
-					<div>
-						<img src="img/british-council-logo.png" style=" height: 58px; display: block; margin: 47px 0px 0px 280px;"">
-					</div>
-					<div class="education__time">
-						<span class="ielts__line"></span>
-					</div>
-
-					<div>
-						<span> <p style="font-size: larger;"><b style="color: #c9304f;">IELTS </b> Score: <b style="color: #222ce6;"> 7.5 </b></p>
-								<ul class="cert__ul">
-								<li> Listening: <b>7.5</b></li>
-								<li> Reading: <b> 8.0</b></li>
-								<li> Writing: <b>6.5</b></li>
-								<li> Speaking: <b>7.0</b></li>
-			</ul>
-		</span>
-					</div>
-				</div> -->
-
-				<!-- <div class="education__content"><img src="img/british-council-1-logo.png"></div>
-				
-				<span style="font-size: 1.4rem; padding: 20px 67px;"> <b style="color: red;">IELTS </b> Score: <b style="color: #CC4B2C;"> 7.5 </b>
-				<ul class="cert__ul">
-				<li> Listening: <b>7.5</b></li>
-				<li> Reading: <b> 8.0</b></li>
-				<li> Writing: <b>6.5</b></li>
-				<li> Speaking: <b>7.0</b></li>
-			</ul>
-		</span>
-		
-			</div> -->
-			<!-- <span class="section-subtitle" style="margin: 26px 0px 0px 0px;">Online Certifications</span> -->
-			<h2 class="section-title" style="margin: 26px 0px 0px 0px;">Online Certifications</h2>
-			<div class="education__container bd-grid">
-				<ul class="cert__ul">
-					<li>Crash Course on Python  <a class="certifications"
-						href="https://www.coursera.org/account/accomplishments/certificate/FEAM3MRB72WA" target="_blank">[See Certificate]</a></li>
-
-					<li>Coursera Python Classes and Inheritance <a class="certifications"
-						href="https://www.coursera.org/account/accomplishments/certificate/EPHRX2HERMWH" target="_blank">[See Certificate]</a></li>
-					
-					<li>Coursera Machine Learning Course <a class="certifications"
-						href="https://www.coursera.org/account/accomplishments/verify/FMR3CG24GNYJ" target="_blank">[See Certificate]</a></li>
-					
-					<li>Coursera Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning Course <a class="certifications"
-						href="https://www.coursera.org/account/accomplishments/verify/PTX45XUMXN9J" target="_blank"> [See Certificate]</a></li>
-					
-					<li>Coursera Convolutional Neural Networks in TensorFlow Course <a class="certifications"
-						href="https://www.coursera.org/account/accomplishments/certificate/CKVKWU8V275R" target="_blank">[See Certificate] </a></li>
-					
-					<li>Coursera Build Basic Generative Adversarial Networks (GANs) <a class="certifications"
-						href="https://www.coursera.org/account/accomplishments/certificate/3YG79XGLW5GW" target="_blank"> [See Certificate]</a></li>
-					
-					<li>Dataquest Data Analyst in Python Course <a class="certifications"
-						href="https://app.dataquest.io/view_cert/C6MZAZ6AUBQCOQ5HXCUF/" target="_blank">[See Certificate]</a></li>
-					
-					<li>Dataquest Data Scientist in Python Course <a class="certifications"
-						href="https://app.dataquest.io/view_cert/F61V9HTSPHZY7S9WD8PE/" target="_blank">[See Certificate]</a></li>
-					
-					<li>Dataquest Data Engineer Course <a class="certifications"
-						href="https://app.dataquest.io/view_cert/B8VIKJ9F4IG0STAAKAOY/" target="_blank">[See Certificate]</a></li>
-					
-					<li>IBM & The Coding School's Introduction to Quantum Computing Course <a class="certifications"
-						href="https://qubitbyqubit.simplecert.net/api/get-certificate?r=2348962&t=900a48f501947421165f2789da1e24a1bbebe88be24e2b1c08c90f1f7b9ce7a8" target="_blank">[See Certificate]</a></li>
-				</ul>
-			</div>
-
-	</section>
-
-	<!-- ====================================Teaching Experience======================= -->
-
-	<section class="education section" id="teaching">
-		<span class="section-subtitle">Career Profile</span>
-			<h2 class="section-title">Teaching Experience</h2>
-			<div class="education__container bd-grid">
-
-				<div class="education__content">
-					<div>
-						<h3 class="education__year">17 July, 2022- Present</h3>
-						<span class="education__university" style="color: #393d8f;font-size: 1.1rem"><b>Chittagong University of Engineering and Technology (CUET)</b></span>
-					</div>
-					<div class="education__time">
-						<span class="education__rounder"></span>
-						<span class="education__line"></span>
-					</div>
-
-					<div>
-						<h3 class="education__grad">Lecturer</h3>
-						<span class="education__dept">Department of Computer Science and Engineering (CSE)</span>
-						<br>
-						<span class="education__result"><b> Courses:</b> Computer Graphics, Electrical Device and Circuits. </span>
-					</div>
-				</div>
-
-
-				<div class="education__content">
-					<div>
-						<h3 class="education__year">19 September, 2021 - 16 July, 2022</h3>
-						<span class="education__university" style="color: #393d8f;font-size: 1.1rem"><b>East Delta University, Bangladesh</b></span>
-					</div>
-					<div class="education__time">
-						<span class="education__rounder"></span>
-						<span class="education__line"></span>
-					</div>
-
-					<div>
-						<h3 class="education__grad">Lecturer</h3>
-						<span class="education__dept">Department of Computer Science and Engineering (CSE)</span>
-						<br>
-						<span class="education__result"><b> Courses:</b> Computer Graphics, Digital Image Processing, Pattern Recognition, Compiler Design, Object Oriented Programming and Operating System </span>
-					</div>
-				</div>
-				
-			</section>
-	<!-- ======================== publication ================= -->
-	<section class="publications section" id="publications">
-		<span class="section-subtitle"> Research Works</span>
-		
-		<!-- <div> -->
-			<h2 class="section-title">Research Interest</h2>
-			<div class="intrst__container bd-grid">
-            <div class="intrst__img">
-                <img src="img/computer_vision.png" alt="">
-                <div class="intrst__data">
-                    <span class="intrst__title"><b>Computer Vision</b></span>
-                </div>
-            </div>
-
-            <div class="intrst__img">
-                <img src="img/ml.png" alt="" style="width: 50px; height: 50px">
-                <div class="intrst__data">
-                    <span class="intrst__title"><b>Machine Learning</b></span>
-                </div>
-            </div>
-
-        	<div class="intrst__img">
-                <img src="img/dl.png" alt="" style="width: 50px; height: 50px">
-                <div class="intrst__data">
-                    <span class="intrst__title"><b> Deep Learning</b></span>
-                </div>
-            </div>
-
-            <div class="intrst__img">
-                <img src="img/ds.png" alt="" style="width: 50px; height: 50px">
-                <div class="intrst__data">
-                    <span class="intrst__title"><b> Data Science</b></span>
-                </div>
-            </div>
-
-            <div class="intrst__img">
-                <img src="img/GAN.png" alt="">
-                <div class="intrst__title">
-                    <span class="intrst__title"><b> GAN</b></span>
-                </div>
-            </div>
-            </div>
-        <!-- </div> -->
-        <br>
-
-		<h2 class="section-title">Publications</h2>
-		<div class="pub__container bd-grid">
-
-			<div class="pub__content">
-				<center>
-				<a href="https://ieeeaccess.ieee.org/" target="_blank"><img title="IEEE Access" src="img/Picture2.png" height="230px" width="115px"></a> </center>
-				<h3 class="pub__title">Multi-Person Pose Estimation Using Group-Based Convolutional Neural Network Model</h3>
-				<p class="pub__description" style="font-size: 1rem;"> Shuhena Salam Aonty, Kaushik Deb, <b>Moumita Sen Sarma</b>, Pranab Kumar Dhar, Tetsuya Shimamura</p>
-				<p class="pub__description">Published in <b>IEEE Access</b>  <br>
-				<a class="see__pub" href="https://scholar.google.com/scholar?oi=bibs&cluster=9397943828797265863&btnI=1&hl=en" target="_blank">See the publication!</a>
-				<!-- <a class="see__cert" href="https://drive.google.com/file/d/1zpSlc6AxI-rzpFl3rtNjl-pRlhGrySei/view?usp=sharing" target="_blank">[Certification of Publication]</a></p> -->
-			</p>
-			</div>
-
-			<div class="pub__content">
-				<center>
-				<a href="" target="_blank"><img class="icecte" title="ICECTE" src="img/icecte_logo_1.png" width="120px"></a> </center>
-				<h3 class="pub__title">Jointly Learning Structure for Human Pose Estimation using Convolutional Neural Network</h3>
-				<p class="pub__description" style="font-size: 1rem;"> Shuhena Aonty, <b>Moumita Sen Sarma</b>, Kaushik Deb</p>
-				<p class="pub__description">Published in <b>4th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE 2022)</b>  <br>
-				<a class="see__pub" href="https://scholar.google.com/scholar?oi=bibs&cluster=3705386445393488643&btnI=1&hl=en" target="_blank">See the publication!</a>
-				<!-- <a class="see__cert" href="https://drive.google.com/file/d/1zpSlc6AxI-rzpFl3rtNjl-pRlhGrySei/view?usp=sharing" target="_blank">[Certification of Publication]</a></p> -->
-			</p>
-			</div>
-
-			<div class="pub__content">
-				<center>
-				<a href="https://www.mdpi.com/journal/applsci" target="_blank"><img title="MDPI" src="img/applsci-logo.png" width="120px"></a> </center>
-				<h3 class="pub__title">Traditional Bangladeshi Sports Video Classification Using Deep Learning Method</h3>
-				<p class="pub__description" style="font-size: 1rem;"> <b>Moumita Sen Sarma</b>, Kaushik Deb, Pranab Kumar Dhar, Takeshi Koshiba</p>
-				<p class="pub__description">Published in <b>MDPI Applied Sciences</b> journal, year: 2021, volume: 11(5), page: 2149. <br> Belongs to the Collection <b>Computer Science in Sport</b> <br>
-				<a class="see__pub" href="https://www.mdpi.com/2076-3417/11/5/2149" target="_blank">See the publication!</a>
-				<a class="see__cert" href="https://drive.google.com/file/d/1zpSlc6AxI-rzpFl3rtNjl-pRlhGrySei/view?usp=sharing" target="_blank">[Certification of Publication]</a></p>
-			</p>
-			</div>
-			<br>
-
-			<div class="pub__content">
-				<center>
-				<a href="https://www.tensymp2021.org/2021/" target="_blank"><img title="tensymp2021" src="img/tensymp.PNG" width="110px"></a> </center>
-				<h3 class="pub__title">Traditional Bengali Food Classification Using Convolutional Neural Network</h3>
-				<p class="pub__description" style="font-size: 1rem;"> Asif Mahbub Ziyan, Abdullah Al Miraj, <b>Moumita Sen Sarma</b>, Avishek Das, Md. Manjurul Gani</p>
-				<p class="pub__description">Published in <b>IEEE Region 10 Symposium (TENSYMP) 2021.</b>
-				<!-- <p class="see__pub"><a href="#">Soon to be published in <b>ACM Digital Library</b></a></p> --> <br>
-				<a class="see__pub" href="https://ieeexplore.ieee.org/document/9550874" target="_blank">See the publication!</a> </p>
-			</div>
-
-			<br>
-
-			<div class="pub__content">
-				<center>
-				<a href="http://medi-ast.org/NISS2021/" target="_blank"><img title="NISS" src="img/niss.png" width="115px"></a> </center>
-				<h3 class="pub__title">BMGC: A Deep Learning Approach to Classify Bangla Music Genres</h3>
-				<p class="pub__description" style="font-size: 1rem;"> <b>Moumita Sen Sarma</b>, Avishek Das</p>
-				<p class="pub__description">Published in<b> International Conference on Networking, Information Systems & Security, 2021. <br> </b> <i> <b> ACM International Conference Proceeding Series (ICPS)</b></i> <br>
-				<a class="see__pub" href="https://dl.acm.org/doi/10.1145/3454127.3456593" target="_blank">See the publication!</a>
-				<a class="see__cert" href="https://drive.google.com/file/d/1uRGSBnIJS1WnJh4Zj23VQ4iePpuh3DAp/view" target="_blank">[Certification of Participation]</a> </p>
-			</div>
-			
-
-			
-		</div>
-	</section>
-
-
-
-<!-- =========================Projects======================== -->
-
-<section class="works section" id="works">
-        <span class="section-subtitle">My portfolio</span>
-        <h2 class="section-title">Projects</h2>
-
-        <div class="works__container bd-grid">
-            <div class="works__img">
-                <img src="img/online_shop.png" alt="">
-
-                <div class="works__data">
-                   <!--  <a href="https://github.com/dmloureiroo/busy-flights" class="works__link"><i class="bx bx-link-alt"></i></a> -->
-                    <span class="works__title">Online Shopping System (PHP & MySQL)</span>
-                </div>
-            </div>
-
-            <div class="works__img">
-                <img src="img/pycharm_opencv_logos.jpg" alt="">
-
-                <div class="works__data">
-                   <!--  <a href="https://github.com/dmloureiroo/speaking-clock" class="works__link"><i class="bx bx-link-alt"></i></a> -->
-                    <span class="works__title">Image & Video Analysis using OpenCV (Python)</span>
-                </div>
-            </div>
-
-            <div class="works__img">
-                <img src="img/image_caption.png" alt="">
-
-                <div class="works__data">
-                    <a href="https://github.com/Moumita-Sen-Sarma/Automatic-Image-Captioning-System-using-Deep-Learning" class="works__link"><i class="bx bx-link-alt" target="_blank"></i></a>
-                    <span class="works__title">Image Caption Generation using Deep Learning & Python</span>
-                </div>
-            </div>
-
-            <div class="works__img">
-                <img src="img/bangla_sports.png" alt="" >
-
-                <div class="works__data">
-                    <a href="https://github.com/Moumita-Sen-Sarma/Traditional-Bangladeshi-Sports-Video-Classification-using-Fine-Tuned-CNN-and-LSTM" class="works__link" target="_blank"><i class="bx bx-link-alt"></i></a>
-                    <span class="works__title">Sports Video Classification using Deep Learning & Python</span>
-                </div>
-            </div>
-
-			<div class="works__img">
-                <img src="img/music.jpg" alt="">
-
-                <div class="works__data">
-                    <!-- <a href="https://github.com/Moumita-Sen-Sarma/Automatic-Image-Captioning-System-using-Deep-Learning" class="works__link"><i class="bx bx-link-alt"></i></a> -->
-                    <span class="works__title">Music Genre Categorization using Deep Learning & Python</span>
-                </div>
-            </div>
-
-            <div class="works__img">
-                <img src="img/iris.png" alt="">
-
-                <div class="works__data">
-                    <a href="https://iris-flask-deployment.herokuapp.com/" class="works__link" target="_blank"><i class="bx bx-link-alt" target="_blank"></i></a>
-                    <span class="works__title">Heoruku Based Flask Deployment of Iris Flower Species Deep Learning Classifier</span>
-                </div>
-            </div>
-
-            <div class="works__img">
-                <img src="img/object_loc.png" alt="">
-
-                <div class="works__data">
-                    <a href="https://github.com/Moumita-Sen-Sarma/Object-Localization-using-Tensorflow" class="works__link" target="_blank"><i class="bx bx-link-alt"></i></a>
-                    <span class="works__title">Object Localization using Tensorflow</span>
-                </div>
-            </div>
-
-            <div class="works__img">
-                <img src="img/style_trans.png" alt="">
-
-                <div class="works__data">
-                    <a href="https://github.com/Moumita-Sen-Sarma/Neural-Style-Transfer-using-Pytorch" class="works__link" target="_blank"><i class="bx bx-link-alt"></i></a>
-                    <span class="works__title">Neural Style Transfer using Pytorch</span>
-                </div>
-            </div>
-
-        </div>
+  <button class="menu-toggle" aria-label="More" aria-expanded="false">☰</button>
+  <aside class="sidebar" id="site-nav">
+    <a class="brand" href="#home" aria-label="Homepage">
+      <span class="brand-mark">⌂</span>
+      <span>Homepage</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a class="nav-link" href="#education">Education</a>
+      <a class="nav-link" href="#research">Research</a>
+      <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#publications">Publications</a>
+      <a class="nav-link" href="#presentations">Presentations</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#internship">Internship</a>
+      <a class="nav-link" href="#awards">Awards</a>
+      <a class="nav-link" href="#certifications">Certifications</a>
+      <a class="nav-link" href="#leadership">Leadership Activities</a>
+    </nav>
+    <div class="sidebar-footer">
+      <a href="mailto:moumita@ksu.edu">moumita@ksu.edu</a>
+      <span>Manhattan, Kansas, USA</span>
+    </div>
+  </aside>
+
+  <main>
+    <section class="hero section" id="home">
+      <img class="profile-avatar" src="assets/moumita-profile.png" alt="Moumita Sen Sarma" />
+      <h1>Moumita Sen Sarma</h1>
+      <p class="hero-lede">PhD Candidate in Computing Science<br />Kansas State University</p>
+      <div class="profile-links" aria-label="Contact and profile links">
+        <span class="profile-location"><i class="profile-icon fa-solid fa-location-dot" aria-hidden="true"></i>Manhattan, Kansas, USA</span>
+        <span class="profile-email-line"><span class="profile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m4 7 8 6 8-6"/></svg></span><span class="email-addresses"><a href="mailto:moumita@ksu.edu">moumita@ksu.edu</a>, <a href="mailto:moumitactg@gmail.com">moumitactg@gmail.com</a></span></span>
+        <a href="https://www.linkedin.com/in/moumita-sen-sarma-91245413a/" target="_blank" rel="noreferrer"><i class="profile-icon linkedin-icon fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+        <a href="https://github.com/Moumita-Sen-Sarma" target="_blank" rel="noreferrer"><span class="profile-icon github-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.3a9.7 9.7 0 0 0-3.1 18.9c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 0 1.5 1 1 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.3-4.5-1.1-4.5-4.8 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.7 9.7 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.7-2.3 4.5-4.5 4.8.4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A9.7 9.7 0 0 0 12 2.3Z"/></svg></span>GitHub</a>
+        <a href="https://scholar.google.com/citations?user=7uRtCK0AAAAJ&hl=en" target="_blank" rel="noreferrer"><i class="profile-icon scholar-icon fa-solid fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a>
+        <a href="https://www.researchgate.net/profile/Moumita-Sen-Sarma" target="_blank" rel="noreferrer"><span class="profile-icon researchgate-icon"><img src="assets/researchgate-icon.png" alt="" /></span>ResearchGate</a>
+        <a href="moumita_cv_2026.pdf"><span class="profile-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></span>CV</a>
+      </div>
     </section>
 
-    <br>
+    <section class="section intro-section" id="about-me">
+      <div class="section-heading"><div class="section-label">About Me</div><h2>👋 Hi, there!</h2></div>
+      <p class="lead-copy">I am a PhD candidate in Computing Science (ABD) at Kansas State University.</p>
+      <p class="lead-copy">I explore how AI models learn, make decisions, and internally represent information. My research focuses on making AI systems more interpretable, reliable, and understandable beyond their predictions.</p>
+      <p class="lead-copy">I also enjoy building practical tools, collaborating across disciplines, and sharing knowledge.</p>
+    </section>
 
-    <!-- ============= Skills =====================-->
-		<section class="skills section" id='skills'>
-			<span class="section-subtitle">Why Choose Me?</span>
-			<h2 class="section-title">My Expertise Area</h2>
-			<div class="skills__container bd-grid">
-				<div class="skills__content">
-					<h3 class="skills__subtitle">Web Programming</h3>
-					<div class="skills__data">
-						<span class="skills__name">HTML</span>
-						<span class="skills_number">90%</span>
-						<span class="skills__bar skills__html"></span>
-					</div>
-					<div class="skills__data">
-						<span class="skills__name">CSS</span>
-						<span class="skills_number">90%</span>
-						<span class="skills__bar skills__css"></span>
-					</div>
+    <section class="section" id="education">
+      <div class="section-heading"><div class="section-label">01 / Education</div><h2>🎓 Education</h2></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-date">2024 — Present</div><div><h3>PhD in Computing Science</h3><p class="muted">Kansas State University · Manhattan, Kansas, USA</p><p>All But Dissertation (ABD). </p></div></article>
+        <article class="timeline-item"><div class="timeline-date">2016 — 2021</div><div><h3>B.Sc. in Computer Science & Engineering</h3><p class="muted">Chittagong University of Engineering & Technology (CUET), Bangladesh</p><p><strong>CGPA: 3.89 / 4.00</strong> · Departmental Merit Position: <strong>1st / 120</strong></p></div></article>
+      </div>
+    </section>
 
-					<div class="skills__data">
-						<span class="skills__name">JavaScript</span>
-						<span class="skills_number">70%</span>
-						<span class="skills__bar skills__js"></span>
-					</div>
+    <section class="section" id="research">
+      <div class="section-heading"><div class="section-label">02 / Research</div><h2>🔬 Research Interests</h2></div>
+      <div class="interest-grid">
+        <span>Artificial Intelligence</span><span>Deep Learning</span><span>Computer Vision</span><span>Explainable AI</span><span>Neurosymbolic AI</span>
+      </div>
+    </section>
 
-					<div class="skills__data">
-						<span class="skills__name">PHP</span>
-						<span class="skills_number">70%</span>
-						<span class="skills__bar skills__php"></span>
-					</div>
+    <section class="section tinted" id="experience">
+      <div class="section-heading"><div class="section-label">03 / Experience</div><h2>💼 Professional Experience</h2></div>
+      <div class="experience-list">
+        <article class="experience-card"><div class="card-top"><span class="role">AI Consultant</span><span class="date">Jun 2026 — Present</span></div><p class="org">K-State AI Consultation Services (KAICS) · Kansas State University</p><p>Provide research-oriented AI consultation to faculty, staff, and graduate students, and develop tutorials on emerging AI topics, tools, and technologies.</p></article>
+        <article class="experience-card"><div class="card-top"><span class="role">Graduate Research Assistant</span><span class="date">Aug 2024 — May 2026</span></div><p class="org">Data Semantic Lab · Kansas State University</p><p>Conducted research under the Game-changing Research Initiation Program (GRIP), contributing to <em>“Towards a Global Food Systems Data Hub: Seeding the Center for Sustainable Wheat Production.”</em></p></article>
+        <article class="experience-card"><div class="card-top"><span class="role">Lecturer</span><span class="date">Jul 2022 — Jul 2024</span></div><p class="org">Department of Computer Science & Engineering · CUET, Bangladesh</p><p><strong>Courses:</strong> Software Engineering, Computer Graphics, Programming for Planners, Electrical Devices and Circuits.</p></article>
+        <article class="experience-card"><div class="card-top"><span class="role">Lecturer</span><span class="date">Sep 2021 — Jul 2022</span></div><p class="org">Department of Computer Science & Engineering · East Delta University, Bangladesh</p><p><strong>Courses:</strong> Computer Graphics, Digital Image Processing, Pattern Recognition, Compiler Design, Object-Oriented Programming, and Operating Systems.</p></article>
+      </div>
+    </section>
 
-					<div class="skills__data">
-						<span class="skills__name">Django</span>
-						<span class="skills_number">65%</span>
-						<span class="skills__bar skills__django"></span>
-					</div>	
-				</div>
+    <section class="section tinted" id="publications">
+      <div class="section-heading"><div class="section-label">04 / Publications</div><h2>📝 Publications</h2></div>
+      <div class="publication-summary" aria-label="Publication summary">
+        <span>Works by type:</span>
+        <button class="summary-pill summary-all is-active" type="button" data-publication-filter="all" aria-pressed="true">All papers ×11</button>
+        <button class="summary-pill summary-conference" type="button" data-publication-filter="conference" aria-pressed="false">Conference papers ×5</button>
+        <button class="summary-pill summary-journal" type="button" data-publication-filter="journal" aria-pressed="false">Journal papers ×3</button>
+        <button class="summary-pill summary-book" type="button" data-publication-filter="book" aria-pressed="false">Book chapters ×2</button>
+        <button class="summary-pill summary-preprint" type="button" data-publication-filter="preprint" aria-pressed="false">ArXiv preprints ×1</button>
+      </div>
 
+      <div class="publication-list publication-all-list" id="all-publications" aria-live="polite" hidden></div>
 
-				<div class="skills__content">
-					<h3 class="skills__subtitle">Core Programming</h3>
-					<div class="skills__data">
-						<span class="skills__name">Python</span>
-						<span class="skills_number">90%</span>
-						<span class="skills__bar skills__python"></span>
-					</div>
-					<div class="skills__data">
-						<span class="skills__name">C</span>
-						<span class="skills_number">80%</span>
-						<span class="skills__bar skills__c"></span>
-					</div>
+      <div class="publication-groups">
+        <section class="publication-group" data-publication-group="journal" aria-labelledby="journal-papers-heading">
+          <h3 id="journal-papers-heading">Journal Papers</h3>
+          <div class="publication-list">
+            <article class="publication"><span class="pub-year">2024</span><div><h3><a href="https://doi.org/10.3390/s24185862" target="_blank" rel="noreferrer">AvaTER: Fusing Audio, Visual, and Textual Modalities Using Cross-Modal Attention for Emotion Recognition ↗</a></h3><p>Avishek Das, <strong>M. S. Sarma</strong>, Mohammed Moshilul Hoque, Nazmul Siddique, M. Ali Akber Dewan</p><p class="venue">Sensors, vol. 24, p. 5862</p></div></article>
+            <article class="publication"><span class="pub-year">2023</span><div><h3><a href="https://doi.org/10.1109/ACCESS.2023.3271593" target="_blank" rel="noreferrer">Multi-Person Pose Estimation Using Group-Based Convolutional Neural Network Model ↗</a></h3><p>S. S. Aonty, K. Deb, <strong>M. S. Sarma</strong>, P. K. Dhar, T. Shimamura</p><p class="venue">IEEE Access, vol. 11, pp. 42343–42360</p></div></article>
+            <article class="publication"><span class="pub-year">2021</span><div><h3><a href="https://doi.org/10.3390/app11052149" target="_blank" rel="noreferrer">Traditional Bangladeshi Sports Video Classification Using Deep Learning Method ↗</a></h3><p><strong>M. S. Sarma</strong>, K. Deb, P. K. Dhar, T. Koshiba</p><p class="venue">Applied Sciences, vol. 11, no. 5, p. 2149</p></div></article>
+          </div>
+        </section>
 
-					<div class="skills__data">
-						<span class="skills__name">C++</span>
-						<span class="skills_number">70%</span>
-						<span class="skills__bar skills__cplus"></span>
-					</div>
+        <section class="publication-group conference-group" data-publication-group="conference" aria-labelledby="conference-papers-heading">
+          <h3 id="conference-papers-heading">Conference Papers</h3>
+          <div class="publication-list">
+            <article class="publication"><span class="pub-year">2026</span><div><span class="status status-accepted">Accepted</span><h3><a href="https://arxiv.org/abs/2608.14729" target="_blank" rel="noreferrer">Do CNNs Internally Represent Real and Fake Images Differently? A Hidden-Layer Analysis ↗</a></h3><p><strong>M. S. Sarma</strong>, Pascal Hitzler, Eugene Y. Vasserman</p><p class="venue">20th Conference on Neurosymbolic Learning and Reasoning (NeSy 2026) · arXiv</p></div></article>
+            <article class="publication"><span class="pub-year">2024</span><div><h3><a href="https://ieeexplore.ieee.org/abstract/document/10915182" target="_blank" rel="noreferrer">Multimodal Emotion Recognition Exploiting Audio, Video and Textual Features with Crossmodal Attention ↗</a></h3><p>Avishek Das, <strong>M. S. Sarma</strong>, Mohammed Moshilul Hoque</p><p class="venue">IEEE International Women in Engineering (WIE) Conference on Electrical and Computer Engineering (WIECON-ECE)</p></div></article>
+            <article class="publication"><span class="pub-year">2022</span><div><h3><a href="https://doi.org/10.1109/ICECTE57896.2022.10114551" target="_blank" rel="noreferrer">Jointly Learning Structure for Human Pose Estimation Using Convolutional Neural Networks ↗</a></h3><p>S. S. Aonty, <strong>M. S. Sarma</strong>, K. Deb</p><p class="venue">4th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)</p></div></article>
+            <article class="publication"><span class="pub-year">2021</span><div><h3><a href="https://doi.org/10.1145/34564127.3456593" target="_blank" rel="noreferrer">BMGC: A Deep Learning Approach to Classify Bangla Music Genres ↗</a></h3><p>M. Sen Sarma, A. Das</p><p class="venue">4th International Conference on Networking, Information Systems & Security (NISS2021)</p></div></article>
+            <article class="publication"><span class="pub-year">2021</span><div><h3><a href="https://doi.org/10.1109/TENSYMP52854.2021.9550874" target="_blank" rel="noreferrer">Traditional Bengali Food Classification Using Convolutional Neural Network ↗</a></h3><p>A. M. Uddin, A. Al Miraj, <strong>M. S. Sarma</strong>, A. Das, M. M. Gani</p><p class="venue">2021 IEEE Region 10 Symposium (TENSYMP)</p></div></article>
+          </div>
+        </section>
 
-					<div class="skills__data">
-						<span class="skills__name">Java</span>
-						<span class="skills_number">60%</span>
-						<span class="skills__bar skills__java"></span>
-					</div>
-				</div>
+        <section class="publication-group" data-publication-group="preprint" aria-labelledby="arxiv-preprints-heading">
+          <h3 id="arxiv-preprints-heading">ArXiv Preprints</h3>
+          <div class="publication-list">
+            <article class="publication"><span class="pub-year">2025</span><div><span class="status status-preprint">Preprint</span><h3><a href="https://arxiv.org/abs/2502.19507" target="_blank" rel="noreferrer">From Field Data to Global Food Systems Intelligence: A Semantic Graph Framework for Sustainable Wheat Production ↗</a></h3><p>N. Gelal, A. Gautam, S. Abadifard, N. Giordano, <strong>M. S. Sarma</strong>, et al.</p><p class="venue">arXiv preprint</p></div></article>
+          </div>
+        </section>
 
+        <section class="publication-group" data-publication-group="book" aria-labelledby="book-chapters-heading">
+          <h3 id="book-chapters-heading">Book Chapters</h3>
+          <div class="publication-list">
+            <article class="publication"><span class="pub-year">2025</span><div><span class="status status-accepted">Accepted</span><h3>Neurosymbolic Hidden Neuron Analysis in Convolutional Neural Networks</h3><p>Abhilesha Dalal, <strong>M. S. Sarma</strong>, Avishek Das, Samatha E. Akkamahadevi, Eugene Y. Vasserman, Pascal Hitzler</p><p class="venue">Neuro-Symbolic AI: Bridging the Gap Between Neural Networks and Symbolic Reasoning · Elsevier book chapter</p></div></article>
+            <article class="publication"><span class="pub-year">2025</span><div><span class="status status-accepted">Accepted</span><h3>A Symbolic Reasoning Methods in Neural Architectures and Large Language Models</h3><p>Adrita Barua, Avishek Das, <strong>M. S. Sarma</strong>, Pascal Hitzler</p><p class="venue">Neuro-Symbolic AI: Bridging the Gap Between Neural Networks and Symbolic Reasoning · Elsevier book chapter</p></div></article>
+          </div>
+        </section>
+      </div>
+    </section>
 
-				<div class="skills__content" style="margin: 26px 0px 0px 10px;">
-					<h3 class="skills__subtitle">Deep Learning Tools</h3>
-					<div class="skills__data">
-						<span class="skills__name">
-						<ul style="font-size: 1.14rem; list-style-type: square;color: #54423D">
-							  <li><p style="color: #1a7f91">Tensorflow</p></li>
-							  <li><p style="color: #1a7f91">Keras</p></li>
-							  <li><p style="color: #1a7f91">Pytorch</p></li>
-							</ul>  </span>
-					</div>
-				</div>																							
+    <section class="section" id="presentations">
+      <div class="section-heading"><div class="section-label">05 / Presentations</div><h2>🎤 Poster Presentations</h2></div>
+      <div class="publication-list">
+        <article class="publication"><span class="pub-year">2025</span><div><h3><a href="https://arxiv.org/abs/2603.00197" target="_blank" rel="noreferrer">A Case Study on Concept Induction for Neuron-Level Interpretability in CNN ↗</a></h3><p><strong>M. S. Sarma</strong>, S. E. Akkamahadevi, P. Hitzler</p><p class="venue">13th International Conference on Knowledge Capture (K-CAP 2025), USA</p></div></article>
+        <article class="publication"><span class="pub-year">2025</span><div><h3><a href="https://ksuemailprod-my.sharepoint.com/:b:/g/personal/moumita_ksu_edu/IQBVk3dtHgR5Qrv7ojgq5UgXAQAX-I5CCS8uFDMk4ryJziU?e=yFxre1" target="_blank" rel="noreferrer">Building Knowledge Graph for Fungicide Management in Wheat ↗</a></h3><p><strong>M. S. Sarma</strong>, A. Gautam, N. Gelal, et al.</p><p class="venue">Posters, Pinot and Partnership Session on Enabling Technologies and Global Food Security and Biosecurity, Kansas State University, USA</p></div></article>
+      </div>
+    </section>
 
-				<div class="skills__content" style="margin: 24px 0px 0px 10px;">
-					<h3 class="skills__subtitle">Integrated Development Environment (IDE)</h3>
-					<div class="skills__data">
-						<span class="skills__name">
-							<ul style="font-size: 1.14rem; list-style-type: square;color: #54423D">
-							  <li><p style="color: #1a7f91">Jupyter Notebook</p></li>
-							  <li><p style="color: #1a7f91">Netbeans</p></li>
-							</ul>  </span>
-					</div>
-				</div>
+    <section class="section" id="projects">
+      <div class="section-heading"><div class="section-label">06 / Projects</div><h2>🚀  Projects</h2></div>
+      <div class="project-grid">
+        <article class="project-card featured"><div class="project-number">01</div><h3>Hybrid RAG for Knowledge-Grounded Cyber Threat Intelligence</h3><p>A hybrid retrieval-augmented generation system combining knowledge-graph retrieval, semantic vector retrieval, and LLM-based generation.</p><div class="tags"><span>Python</span><span>Neo4j</span><span>RAG</span><span>Streamlit</span></div><div class="project-links"><a href="https://github.com/Moumita-Sen-Sarma/ThreatGraph-RAG" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://threatgraph-rag.streamlit.app/" target="_blank" rel="noreferrer">Live app ↗</a></div></article>
+        <article class="project-card"><div class="project-number">02</div><h3>Image Caption Generation</h3><p>Automatic image caption generation with a web interface for captioning user-provided images.</p><div class="tags"><span>Flask</span><span>Keras</span><span>TensorFlow</span></div><div class="project-links"><a href="https://github.com/Moumita-Sen-Sarma/Automatic-Image-Captioning-System-using-Deep-Learning" target="_blank" rel="noreferrer">GitHub ↗</a></div></article>
+        <article class="project-card"><div class="project-number">03</div><h3>Bengali Sports Classification</h3><p>CNN- and LSTM-based web application for classifying five traditional Bengali sports activities from video.</p><div class="tags"><span>Deep Learning</span><span>Flask</span><span>Computer Vision</span></div><div class="project-links"><a href="https://github.com/Moumita-Sen-Sarma/Traditional-Bangladeshi-Sports-Video-Classification-using-Fine-Tuned-CNN-and-LSTM" target="_blank" rel="noreferrer">GitHub ↗</a></div></article>
+        <article class="project-card"><div class="project-number">04</div><h3>Course-guided Deep Learning Projects</h3><p>Projects in object localization, neural style transfer, and multi-task learning for handwritten digit and color prediction.</p><div class="tags"><span>PyTorch</span><span>Keras</span><span>TensorFlow</span></div><div class="project-links"><a href="https://github.com/Moumita-Sen-Sarma/Coursera-Guided-Projects" target="_blank" rel="noreferrer">GitHub ↗</a></div></article>
+      </div>
+    </section>
 
-				<div class="skills__content">
-					<h3 class="skills__subtitle">Database Management System</h3>
-					<div class="skills__data">
-						<span class="skills__name">
-						<ul style="font-size: 1.14rem; list-style-type: square;color: #54423D">
-							  <li><p style="color: #1a7f91">MySQL</p></li>
-							  <li><p style="color: #1a7f91">Oracle</p></li>
-							</ul>  </span>
-					</div>
-				</div>
+    <section class="section tinted" id="skills">
+      <div class="section-heading"><div class="section-label">07 / Skills</div><h2>🧰 Technical Skills</h2></div>
+      <div class="skill-grid">
+        <div><h3>Programming</h3><p>Python · C/C++ · Java · SQL</p></div><div><h3>ML frameworks</h3><p>PyTorch · TensorFlow · Scikit-learn</p></div><div><h3>Vision & GenAI</h3><p>CNNs · SDXL · FLUX · Diffusion</p></div><div><h3>Explainable AI</h3><p>Concept Induction · ECII Tool</p></div><div><h3>LLMs & RAG</h3><p>Hugging Face · OpenAI API · RAG · GraphRAG · Transformers</p></div><div><h3>Knowledge graphs</h3><p>Neo4j · RDF · OWL · SPARQL · Protégé</p></div><div><h3>Databases</h3><p>Qdrant · GraphDB · MySQL</p></div><div><h3>Tools & MLOps</h3><p>Docker · Kubernetes · Git · FastAPI</p></div>
+      </div>
+    </section>
 
-				<div class="skills__content">
-					<h3 class="skills__subtitle">Version Controlling System</h3>
-					<div class="skills__data">
-						<span class="skills__name">
-						<ul style="font-size: 1.14rem; list-style-type: square;color: #54423D">
-							  <li><p style="color: #1a7f91">GIT</p></li>
-							</ul>  
-						</span>
-					</div>
-				</div>
+    <section class="section" id="internship">
+      <div class="section-heading"><div class="section-label">08 / Internship & Training</div><h2>💻 Internship & Training</h2></div>
+      <div class="experience-list">
+        <article class="experience-card"><div class="card-top"><span class="role">Brain Station 23 Ltd.</span><span class="date">Aug 2019 — Sep 2019</span></div><p><strong>Key achievements:</strong></p><ul><li>Learned Python, Django, D3.js, and Git.</li><li>Completed a University Enrollment Log System using Python and Django.</li></ul></article>
+      </div>
+    </section>
 
-			</div>
-		</section>
-  <!-- =================================== Experiences ==================================== -->
+    <section class="section" id="awards">
+      <div class="section-heading"><div class="section-label">09 / Awards</div><h2>🏆 Awards</h2></div>
+      <div class="more-grid"><div><ul><li><strong>Graduate Student of the Month</strong> · Carl R. Ice College of Engineering, K-State, September 2025</li></ul></div></div>
+    </section>
 
-  	<section class="experiences section" id="experienes">
-  		<span class="section-subtitle">Training & Co-curricular Activities</span>
-        <h2 class="section-title">Industrial Training</h2>
-        <div class="bd-grid">
-	        <ul style="list-style-type: square; margin: 0px 0px 0px 70px;">
-	        	<li> <p style="color: #54423D "><b style="color: #094491"> Brain Station 23 Ltd.</b> (18th August, 2019 – 29th August, 2019)<br>
-	        	<b style="color: #0d9e94">Key Achievements:</p></b>
+    <section class="section" id="certifications">
+      <div class="section-heading"><div class="section-label">10 / Certifications</div><h2>📜 Certifications</h2></div>
+      <div class="more-grid"><div><ul><li>Machine Learning in Production · DeepLearning.AI</li><li>Crash Course: Docker for Absolute Beginners · KodeKloud</li><li>Crash Course: Kubernetes for Absolute Beginners · KodeKloud</li><li>Build Basic Generative Adversarial Networks (GANs) · Coursera</li><li>Machine Learning Course · Coursera</li><li>Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning · Coursera</li><li>Convolutional Neural Networks in TensorFlow · Coursera</li><li>Data Analyst in Python, Data Scientist in Python, and Data Engineer in Python · Dataquest</li><li>Introduction to Quantum Computing · IBM & The Coding School</li></ul></div></div>
+    </section>
 
-				<ul style="list-style-type: disclosure-closed;margin: 0px 0px 0px 20px;">
-	        		<li ><p style="color: #54423D ">Learned about Python, Django, D3.js, Git</p></li>
-	        		<li><p style="color: #54423D ">Completed a project on <b style="color: #094491">University Enrollment Log System</b> using Python, Django.</p></li>
-	        	</ul>
-	            </li>
-	    	</ul>
-		</div>
-        <br>
+    <section class="section" id="leadership">
+      <div class="section-heading"><div class="section-label">11 / Leadership Activities</div><h2>🤝 Leadership Activities</h2></div>
+      <div class="more-grid"><div><ul><li>Vice President, Computer Science Graduate Student Association, Kansas State University, 2026</li><li>Volunteer, Kansas State University Career Fair, 2025</li><li>Moderator (as a faculty member), IEEE CUET WIE Affinity Group Student Branch, Bangladesh, 2023–2024</li><li>Organizing Member, Workshop on Computational Linguistics and Bangla Language Processing (CLBLP–2023)</li><li>Organizing Member, International Conference on Electrical, Computer and Communication Engineering (ECCE–2023)</li><li>Volunteer, International Conference on Electrical, Computer and Communication Engineering (ECCE–2019)</li><li>Chairperson, IEEE CUET WIE Affinity Group Student Branch, Bangladesh, 2019–2020</li><li>Membership Advisor, IEEE Student Branch CUET, Bangladesh, 2018–2019</li></ul></div></div>
+    </section>
 
-        <h2 class="section-title">Workshops</h2>
-        <div class="bd-grid">
-        <ul style="list-style-type: square; margin: 0px 0px 0px 70px;">
-        	<li> <p style="color: #54423D "> <p style="color: #54423D ">Workshop on <b style="color: #094491">Ethical Hacking</b> & <b style="color: #094491">Blockchain</b></p></li>
-        	<li> <p style="color: #54423D "> <p style="color: #54423D ">Workshop on <b style="color: #094491">Android Controlled Robot</p></b></li>
-        	<li> <p style="color: #54423D "> <p style="color: #54423D ">Daylong Workshop on <b style="color: #094491">Raspberry Pi</b></p></li>
-        	<li> <p style="color: #54423D "> <p style="color: #54423D ">Sixty Hour Workshop on <b style="color: #094491">Machine Learning</b> and <b style="color: #094491"> Artificial Intelligence </b> Fundamentals with Python organized by <br><b style="color: #094491 "> ICT Division</b></p></li>
-        </ul>
-    	</div>
-        <br>
-
-        <h2 class="section-title">Leadership</h2>
-        <div class="bd-grid">
-        <ul style="list-style-type: square; margin: 0px 0px 0px 70px;">
-        	<li> <p style="color: #54423D "><p style="color: #54423D "> <b style="color: #0d9e94">Moderator</b> at <b style="color: #094491">IEEE CUET WIE Affinity Group Student Branch, Bangladesh</b> (2023 - present)</p></li>
-        	<li> <p style="color: #54423D "><p style="color: #54423D "> <b style="color: #0d9e94">Chairperson</b> at <b style="color: #094491">IEEE CUET WIE Affinity Group Student Branch, Bangladesh</b> (2019 - 2021)</p></li>
-        	<li> <p style="color: #54423D "><p style="color: #54423D "> <b style="color: #0d9e94"> Membership Advisor</b> at <b style="color: #094491">IEEE Student Branch CUET, Bangladesh</b> (2018-2019)</p></li>
-        </ul>
-    </div>
-        <br>
-
-        
-        <h2 class="section-title">Volunteer Experience</h2>
-        <div class="bd-grid" >
-        	<!-- <div class="about__information-data" style="padding-left: 2.5rem; align-items: initial"> -->
-        	<ul style="list-style-type: square; margin: 0px 0px 0px 70px;">
-        	<li> <p style="color: #54423D "><p style="color: #54423D "> <b style="color: #0d9e94">Organizing Member</b> at Workshop on Computational Linguistics and Bangla Language Processing 2023 <b style="color: #094491">(CLBLP 2023)</b></p></li>
-        	<li> <p style="color: #54423D "><p style="color: #54423D "> <b style="color: #0d9e94">Organizing Member</b> at International Conference on Electrical, Computer and Communication Engineering <b style="color: #094491">(ECCE - 2023)</b></p></li>
-        	<li> <p style="color: #54423D "><p style="color: #54423D "> <b style="color: #0d9e94">Volunteer</b> at International Conference on Electrical, Computer and Communication Engineering <b style="color: #094491">(ECCE - 2019)</b></p></li>
-        </ul>
-
-				<!-- <i class="bx bx-medal about__exp-icon"></i>
-					<span style="display: block">Organizing Member at Workshop on Computational Linguistics and Bangla Language Processing 2023<b style="color:#094491">(CLBLP 2023)</b></span> 
-        	<!-- <div class="about__information-data" style="padding-left: 2.5rem; align-items: initial"> -->
-				<!-- <i class="bx bx-medal about__exp-icon"></i>
-					<span style="display: block">Organizing Member at International
-					Conference on Electrical, Computer and Communication Engineering <b style="color:#094491">(ECCE - 2023)</b></span>  --><!-- </div>
-        	<div class="about__information-data" style="padding-left: 2.5rem; align-items: initial"> -->
-				<!-- <i class="bx bx-medal about__exp-icon"></i>
-					<span style="display: block">Volunteer at International
-					Conference on Electrical, Computer and Communication Engineering <b style="color:#094491">(ECCE - 2019)</b></span>	
-			</div> -->
-		</div>
-
-  	</section>
-
-
-
-<!-- ================================== Contact ==================================== -->
-
-    <!-- <section class="contact section" id="contact">
-        <span class="section-subtitle">Contact Me</span>
-        <h2 class="section-title">Get In Touch</h2>
-
-        <div class="skills__container bd-grid">
-            <form action="mailto:moumitactg@gmail.com?subject=PortfolioContact" class="contact__form" method="post" enctype="text/plain">
-                <div class="contact__inputs">
-                    <input type="text" name="name" placeholder="Name" class="contact__input">
-                    <input type="mail" name="mail" placeholder="Email" class="contact__input">
-                </div>
-
-                <input type="text" name="project" placeholder="Project" class="contact__input">
-
-                <textarea name="message" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
-
-                <input type="submit" value="Send" class="button contact__button">
-            </form>
-
-            <div>
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">Call me</h3>
-                    <span class="contact__text">+880-1819627559</span>
-                </div>
-
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">E-mail</h3>
-                    <span class="contact__text">moumitactg@gmail.com</span>
-                    <span class="contact__text">moumita@cuet.ac.bd</span>
-                    <span class="contact__text">moumita.s@eastdelta.edu.bd</span> -->
-                <!-- </div>
-
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">Location</h3>
-                    <span class="contact__text">84/A, Jamalkhan Road</span>
-                    <span class="contact__text">Chattogram - Bangladesh</span>
-                </div>
-            </div>
-        </div>
-    </section>  -->
-    <!-- <SECTION>
-    	<a href="https://flaghitcounter.com/details/YK"><img src="https://flaghitcounter.com/YK/" alt="Flag Counter"></a>
-    </SECTION> -->
-
-	</main>
-		<script src="https://unpkg.com/scrollreveal"></script>
-
-<!--===== MAIN JS =====-->
-		<script src="js/main.js"></script>
-
-
-	</body>
+  </main>
+</body>
 </html>
